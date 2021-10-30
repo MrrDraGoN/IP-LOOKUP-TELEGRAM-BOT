@@ -31,8 +31,7 @@ if($message == "/start" || $message == "/use" || $message == "/cmds"){
         send_MDmessage($chat_id,$message_id,
 
 	 "Hey $firstname	 \nUse Following Commands :-
-
-	 \n/ip <1.1.1.1> or site <google.com> to get IP information.");
+\n/ip <1.1.1.1> or site <google.com> to get IP information.");
 
     }
 
