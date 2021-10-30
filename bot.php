@@ -29,9 +29,8 @@ if($message == "/start" || $message == "/use" || $message == "/cmds"){
       
 
         send_MDmessage($chat_id,$message_id,
-
-	 "Hey $firstname	 \nUse Following Commands :-
-\n/ip <1.1.1.1> or site <google.com> to get IP information.");
+ "Hey $firstname \nUse Following Commands :-
+\n/ip <EG :- 1.1.1.1> or site <Eg :- google.com> to get IP information.");
 
     }
 
@@ -194,8 +193,7 @@ if (!empty($ip_info))
 {
 
 $data ="🪄👨‍💻User IP ➦ $ip\n ✅Status ➔ $status\n 📡Proxy ➜ $proxy\n 🏙City: ➱ $city\n 🏘Zipcode ➠ $zip\n 🌍State ---» $regionName\n 📶Isp ➢ $isp\n 🏢Org ➔ $org \n 📟As -» $as\n 🕔Timezone ➠ $timezone\n 🔢IP Log (IST) -> $dateTime\n 🌎Country ➮ $country\n 🌐Continent ➯ $continent\n ✪Latitude✪ ~> $lat\n ⍟Longitude⍟ ➸ $lon\n 📵Mobile ➛ $mobile\n 📲Hosting ➸ $hosting\n 🏙️Region ->» $region \n📏Offset ➮ $offset \n💲Currency -› $currency\n 🔄Reverse ~> $reverse
-
-\n🤖Bot By :- scriptkiddie_08\n⚠️Checked By @$username ";
+\n🤖Bot By :- @scriptkiddie_08\n⚠️Checked By @$username ";
 
             send_message($chat_id,$message_id, $data);
 
