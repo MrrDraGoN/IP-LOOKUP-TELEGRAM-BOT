@@ -1,0 +1,53 @@
+{
+
+    "name": "PHP IP ADDRESS CHECKER Bot",
+
+    "description": "A simple PHP powered VALID INVALID IP ADDRESS Checker Bot",
+
+    "keywords": [
+
+        "IP",
+
+	    "PHP",        "Checker",
+
+        "Bot"
+
+    ],
+
+    "website": "https://github.com/Scriptkid08",
+
+    "repository": "https://github.com/Scriptkid08/IP-LOOKUP-TELEGRAM-BOT",
+
+    "success_url": "/",
+
+    "env": {
+
+        "API_TOKEN": {
+
+            "description": "API Token , get it from @BotFather"
+
+        },
+
+        "START_MSG": {
+
+           "descrIPtion": "Enter Custom Start Message"
+
+    }
+
+    },
+
+    "formation": {
+
+        "web": {
+
+            "quantity": 1,
+
+            "size": "free"
+
+        }
+
+    },
+
+    "image": "heroku/php"
+
+}
