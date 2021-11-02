@@ -11,6 +11,8 @@ TELEGRAM : [Sparrows Bot](https://telegram.me/sparrows_bin_bot)
 
 INSTAGRAM: [URS CAPTAIN SPARROW](https://instagram.com/urs_captain_sparrow)
 
+TWITTER : [$cript Kiddi€](https://twitter.com/ashwathama_08_)
+
 ## Heroku Deploy
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
